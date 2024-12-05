@@ -1,0 +1,126 @@
+.section-1 {
+    background-color: #F15BB5;
+    height: 100vh;
+}
+
+.section-2 {
+    background-color: #FEE440;
+    height: 100vh;
+}
+
+.section-3 {
+    background-color: #9B5DE5;
+    height: 100vh;
+}
+
+.ice-cream {
+    display: flex;
+    padding-top: 100px;
+}
+
+.lorem {
+    font-size: 55px;
+    width: 45%;
+    padding-top: 120px;
+    text-align: center;
+    margin-left: -4rem;
+}
+
+.ice-cream img {
+    width: 65%;
+    height: 80vh;
+}
+
+.ice-link {
+    border: 2px solid black;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 115rem;
+    margin-top: -19rem;
+}
+
+.ice-link a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.ice-link:hover {
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.shocolate {
+    display: flex;
+}
+
+.lorem2 {
+    font-size: 55px;
+    width: 45%;
+    padding-top: 200px;
+    text-align: center;
+    margin-left: 2rem;
+}
+.shocolate img{
+    width: 55%;
+    height: 90vh;
+    padding-top: 140px;
+    margin-right: 2rem;
+}
+.shokalad-link a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;  
+    
+}
+.shokalad-link{
+    margin-top:-40rem ;
+    margin-left: 20rem;
+    border: 2px solid black;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.shokalad-link:hover{
+    box-shadow: 0px 0px 10px 0px black;
+}
+.water-display{
+    display: flex;
+}
+.water-display img{
+    width: 58%;
+    height: 70vh;
+    margin-top: 90px;
+}
+.lorem3{
+    font-size: 55px;
+    width: 40%;
+    padding-top: 200px;
+    text-align: center;
+    margin-left: -1rem;
+}
+.water-link{
+    border: 2px solid black;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 115rem;
+    margin-top: -18rem;
+}
+.water-link a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.water-link:hover{
+    box-shadow: 0px 0px 10px 0px black;
+}

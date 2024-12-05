@@ -1,0 +1,107 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar {
+    background-color: coral;
+    height: 8vh;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+}
+.logo {
+    width: 20%;
+    height: 8vh;
+    object-fit: contain;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.navbar-flex {
+    display: flex;
+}
+.navbar-list{
+    display: flex;
+    width: 80%;
+    font-size: 15px;
+    justify-content: end;
+    gap: 3rem;
+    align-items: center;
+}
+.navbar-list li {
+    list-style: none;
+}
+.navbar-list li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.navbar-list i{
+    padding: 0px 10px;
+}
+.navbar-list a:hover{
+    color: white;
+}
+
+.navbar-list-child{
+    position: absolute;
+    background-color:coral;
+    margin-left:2rem ;
+    padding-top: 0.5rem;
+    display: none;
+    
+}
+.navbar-list-child li {
+    padding: 10px;
+}
+.navbar-list-child li:hover{
+    background-color: #8000ff;
+    color: white;
+}
+.navbar-list-item:hover .navbar-list-child{
+    display: block;
+}
+
+
+/* boxes */
+
+.box{
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 20px 0px grey;
+margin-top: 3px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+
+}
+.box img{
+    width: 100px;
+    padding: 10px;
+}
+.box p{
+    padding-top: 35px;
+}
+.boxes{
+   
+    position: absolute;
+    top: 100px;
+    width: 90%;
+    left: 5%;
+}
+.box button{
+width: 100px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top:  25px;
+margin-right: 5px;
+background-color: brown;
+color:aliceblue;
+}
