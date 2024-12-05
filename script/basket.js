@@ -1,33 +1,33 @@
-let basket_json = {
-    1:{
+let basket_json = [
+    {
         'img':'ice-cream/01.png',
         'name':'Zolotoy',
         'price':15000,
         'count':3,
         'total price':45000
     },
-    2:{
+    {
         'img':'chocolate/04.png',
         'name':'Kit Kat',
         'price':12000,
         'count':1,
         'total price':12000
     },
-    3:{
+    {
         'img':'drink/03.png',
         'name':'coca-cola',
         'price':14000,
         'count':3,
         'total price':42000
     },
-    4:{
+    {
         'img':'chocolate/13.png',
         'name':'Alpen Gold',
         'price':13000,
         'count':3,
         'total price':39000
     },
-}
+]
 
 
 let boxes=document.querySelector('.boxes')
