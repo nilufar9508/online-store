@@ -42,6 +42,7 @@ for(let i=1; i<=4; i++){
 <p>${basket_json[i]['price']}</p>
 <p>count:${basket_json[i]['count']}</p>
 <p>total price:${basket_json[i]['total price']}</p>
+<button class="minus">-</button>
 <button>delete</button>
    </div>
     `
