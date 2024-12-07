@@ -31,7 +31,7 @@ for(let i=1;i<=20; i++ ){
     div.classList.add('product-item')
     div.innerHTML=
     `
-     <img src="../media/ice-cream/${chocolate_json[i]['img']}" alt="" class="product-img">
+     <img src="../media/chocalate/${chocolate_json[i]['img']}" alt="" class="product-img">
             <div class="product-data">
                 <p class="product-name">Name ${chocolate_json[i]['name']}</p>
                 <p class="product-price">price: ${chocolate_json[i]['price']}</p>

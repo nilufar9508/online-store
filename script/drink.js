@@ -28,7 +28,7 @@ for(let i=1;i<=20; i++ ){
     let div=document.createElement('div')
     div.classList.add('product-item')
     div.innerHTML=`
-     <img src="../media/ice-cream/${drink_json[i]['img']}" alt="" class="product-img">
+     <img src="../media/drink/${drink_json[i]['img']}" alt="" class="product-img">
             <div class="product-data">
                 <p class="product-name">Name ${drink_json[i]['name']}</p>
                 <p class="product-price">price: ${drink_json[i]['price']}</p>
