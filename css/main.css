@@ -5,7 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
     user-select: none;
 }
-
+.active{
+    color: #8000ff !important;
+    
+}
 #navbar {
     background-color: rgba(255, 127, 80, 0.37);
     height: 7vh;
